@@ -1201,6 +1201,12 @@ form p {
 .fs17{
 	font-size: 17px;
 }
+.fw300{
+	font-weight: 300 !important;
+}
+.fw400{
+	font-weight: 400 !important;
+}
 
 
 /* padding */
