@@ -1006,6 +1006,10 @@ form p {
 	/*.header-toolbar{
 		display: none;
 	}*/
+	.img-center-tablet{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.center-tablet{
 		text-align: center !important;
 	}
