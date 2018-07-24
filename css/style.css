@@ -133,6 +133,16 @@ h3.center {
 .SprdMain .sprd-product-list-item__price{
 	font-size: 17px;
 }
+.sprd-bg-m2{
+	padding: 2px 5px !important; 
+}
+.SprdMain .sprd-detail-cta__cart_icon{
+	font-size: 20px !important;
+	margin-top: 4px;
+}
+.SprdMain .sprd-button{
+	font-size: 16px !important;
+}
 
 
 /* ------------------------ image background ------------------------ */
@@ -1107,7 +1117,12 @@ form p {
 	.modal-header {
 		height: 650px;
 	}
-	
+}
+@media (max-width: 1500px) { 
+	.thinify {
+    box-shadow: none !important;
+    border: none !important;
+	}	
 }
 
 .navbar-pad-1{
