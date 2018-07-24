@@ -1,422 +1,329 @@
 <!doctype html>
 <html ng-app="storeApp">
-	<head>
-		<title>InkTees Clothes Store, created by George Russell & Chris Harvey</title>
-		<meta charset="utf-8">
-		<meta name="description" content="InkTees is a bespoke t-shirt designer for those who want to stand out from the crowd. Visit our shop today.">
-		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-
-		<!-- Facebook Meta -->
-	    <meta property="og:url" content="https://www.inktees.co.uk/" />
-	    <meta property="og:type" content="article" />
-	    <meta property="og:title" content="InkTees Clothes Store" />
-	    <meta property="og:description" content="InkTees is a bespoke t-shirt designer for those who want to stand out from the crowd. Visit our shop today." />
-	    <meta property="og:image" content="https://www.inktees.co.uk/img/og-image.jpg" />
-
-	    <!-- Facebook Pixel Code -->
-		<script>
-		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-		document,'script','https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '1192606000857174', {
-		em: 'insert_email_variable,'
-		});
-		fbq('track', 'PageView');
-		</script>
-		<noscript><img height="1" width="1" style="display:none"
-		src="https://www.facebook.com/tr?id=1192606000857174&ev=PageView&noscript=1"
-		/></noscript>
-		<!-- DO NOT MODIFY -->
-		<!-- End Facebook Pixel Code -->
-
-		<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="plugins/anima/anima.css">
-		<!-- <link rel="stylesheet" href="plugins/owlcarousel/owl.carousel.css"> -->
-		<link rel="stylesheet" href="css/icons.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/sliders.css">
-		<link rel="stylesheet" href="css/hero-slider.css">
-		<link rel="stylesheet" href="css/project-slider.css">
-		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png"/>
-		<!--[if lt IE 9]>
+<head>
+	<title>InkTees Clothes Store, created by George Russell & Chris Harvey</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Get the latest men's and women's apparel online with inktees.co.uk. Shop for new styles and unique designs. Discover a new brand today! ">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Facebook Meta -->
+	<meta property="og:url" content="https://www.inktees.co.uk/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="InkTees Clothes Store" />
+	<meta property="og:description" content="Get the latest men's and women's apparel online with inktees.co.uk. Shop for new styles and unique designs. Discover a new brand today! " />
+	<meta property="og:image" content="https://www.inktees.co.uk/img/og-image.jpg" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/anima/anima.css">
+	<!-- <link rel="stylesheet" href="plugins/owlcarousel/owl.carousel.css"> -->
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/sliders.css">
+	<link rel="stylesheet" href="css/hero-slider.css">
+	<link rel="stylesheet" href="css/project-slider.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png" />
+	<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png" />
+	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+	<![endif]-->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TZ73237');</script>
+	<!-- End Google Tag Manager -->
+</head>
 
-	<body class="thinify" id="myNavBody">
+<body class="thinify" id="myNavBody">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ73237"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
-		<div class="header-toolbar">
-            <div class="container">
-               <div class="cont-info">
-                  <div class="fw400"><a href="mailto:hello@inktees.co.uk" class="fs13 text-white1"><i class="fa fa-envelope fs13"></i>hello@inktees.co.uk</a></div>
-               </div>
-
-               <div class="social-bar tools" style="top:0px !important;">
-					<a href="https://www.facebook.com/inkteesclothesstore/" target="_blank"><i class="icon-facebook text-white1 pad-left-15"></i></a>
-					<a href="https://m.me/inkteesclothesstore" target="_blank"><i class="fa fa-comments-o text-white1 pad-left-15" style="margin-top: -5px;"></i></a>
-					
-               </div>
-            </div>
-         </div>
-
-		<div class="navbar navbar-inverse">
-			<div class="container">
-				<div class="navbar-header navbar-pad-1">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-						<a class="navbar-brand" href="https://www.inktees.co.uk">
-							<img id="navlogo" src="img/logo.png" alt="inktees" width="122" height="45">
-						</a>
-
+	<div class="header-toolbar">
+		<div class="container">
+			<div class="cont-info">
+				<div class="fw400"><a href="mailto:hello@inktees.co.uk" class="fs13 text-white1"><i class="fa fa-envelope fs13"></i>hello@inktees.co.uk</a>
 				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right text-center navbar-pad-2">
-						<li class="nav-pad-left"><a href="index.html" class="text-green fw400">Home</a></li>
-						<li class="nav-pad-left"><a href="https://www.inktees.co.uk/mstore#!/men?q=D1" class="fw400">Men's Tees</a></li>
-						<li class="nav-pad-left"><a href="https://www.inktees.co.uk/wstore#!/women?q=D3" class="fw400">Women's Tees</a></li>
-						<li class="nav-pad-left"><a href="about-us.html" class="fw400">About Us</a></li>
-						<li class="nav-pad-left"><a class="btn btn-store" href="https://www.inktees.co.uk/store.html" style="text-transform: initial; font-size: 14px; font-weight: 400">Shop</a></li>
-					</ul>
-				</div>
-
+			</div>
+			<div class="social-bar tools" style="top:0px !important;">	<a href="https://www.facebook.com/inkteesclothesstore/" target="_blank"><i class="icon-facebook text-white1 pad-left-15"></i></a>
+				<a href="https://m.me/inkteesclothesstore" target="_blank"><i class="fa fa-comments-o text-white1 pad-left-15" style="margin-top: -5px;"></i></a>
 			</div>
 		</div>
-
-
-
-		<section style="background-image: url(img/02.jpg); background-size: cover;" class="hero-static-new mobile-hero">
-               <div class="inner">
-                  <div class="content">
-                     <div class="container">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-center-tablet">
-                           <h1 style="font-size: 35px; font-weight: 700; line-height: 40px;" class="text-white center-tablet">
+	</div>
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header navbar-pad-1">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">	<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="https://www.inktees.co.uk">
+					<img id="navlogo" src="img/logo.png" alt="inktees" width="122" height="45">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right text-center navbar-pad-2">
+					<li class="nav-pad-left"><a href="index.html" class="text-green fw400">Home</a>
+					</li>
+					<li class="nav-pad-left"><a href="https://www.inktees.co.uk/mstore#!/men?q=D1" class="fw400">Men's Tees</a>
+					</li>
+					<li class="nav-pad-left"><a href="https://www.inktees.co.uk/wstore#!/women?q=D3" class="fw400">Women's Tees</a>
+					</li>
+					<li class="nav-pad-left"><a href="about-us.html" class="fw400">About Us</a>
+					</li>
+					<li class="nav-pad-left"><a class="btn btn-store" href="https://www.inktees.co.uk/store.html" style="text-transform: initial; font-size: 14px; font-weight: 400">Shop</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section style="background-image: url(img/02.jpg); background-size: cover;" class="hero-static-new mobile-hero">
+		<div class="inner">
+			<div class="content">
+				<div class="container">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-center-tablet">
+						<h1 style="font-size: 35px; font-weight: 700; line-height: 40px;" class="text-white center-tablet">
                               'Block Ink' is now only £19.99
                            </h1>
-                           <p class="text-white center-tablet" style="font-size: 22px; font-weight: 200;">Unique t-shirts delivered straight to your door.</p>
-                           <a class="btn btn-store btn-center-tablet" href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2" style="text-transform: initial; font-size: 16px;">View Product</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-
-
-
-		
-			
-		
-		<section id="products" class=" padding-top-bottom" ng-controller="productsController">
-			<div class="container">
-				<header class="section-header anima fade-up">
-					<h2>Most Popular T-shirts</h2>
-				</header>
-			</div>
-			<div class="container">
-				<div id="projects-container" class="row">
-					<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up">
-						<a href="https://www.inktees.co.uk/store.html#!/mystic+triangle-A5b5734bb2225091085dbf3a4?productType=812&appearance=1"><div class="img-box">
-							<div class="hover-mask2"></div>
-							<span class="product-icon icon-eye"></span>
-							<img class="img-responsive project-image img-center-tablet" src="img/product1.jpg" alt=""></a>
-						</div>
-						<div class="product-info col-md-12">
-							<p class="project-price">£19.99</p>
-							<div>
-								<a href="https://www.inktees.co.uk/store.html#!/mystic+triangle-A5b5734bb2225091085dbf3a4?productType=812&appearance=1">
-									<h4 class="project-title">'Mystic Triangle' Tee</h4>
-								</a>
-							</div>
-						</div>
-					</article>
-					
-					<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up d1">
-						<div class="img-box">
-							<a href="https://www.inktees.co.uk/store.html#!/colour+splash-A5b5731efe4474244f14061d3?productType=812&appearance=1">
-								<div class="hover-mask2"></div>
-								<span class="product-icon icon-eye"></span>
-								<img class="img-responsive project-image img-center-tablet" src="img/product2.jpg" alt="">
-							</a>
-						</div>
-						<div class="product-info col-md-12">
-							<p class="project-price">£19.99</p>
-							<div>
-								<a href="https://www.inktees.co.uk/store.html#!/colour+splash-A5b5731efe4474244f14061d3?productType=812&appearance=1">
-									<h4 class="project-title">'Colour Splash' Tee</h4>
-								</a>
-							</div>	
-						</div>
-					</article>
-					
-					<article class=" design product col-xs-12 col-sm-6 col-md-3 anima fade-up d2">
-						<div class="img-box">
-							<a href="https://www.inktees.co.uk/store.html#!/palm+strike-A5b57306d2225091085d5169f?productType=812&appearance=2">
-								<div class="hover-mask2"></div>
-								<span class="product-icon icon-eye"></span>
-								<img class="img-responsive project-image img-center-tablet" src="img/product3.jpg" alt="">
-							</a>
-						</div>
-						</a>
-						<div class="product-info col-md-12">
-							<p class="project-price">£19.99</p>
-							<div>
-								<a href="https://www.inktees.co.uk/store.html#!/palm+strike-A5b57306d2225091085d5169f?productType=812&appearance=2">
-									<h4 class="project-title">'Palm Print' Tee</h4>
-								</a>
-							</div>	
-						</div>
-					</article>
-
-
-					<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up d2">
-						<div class="img-box">
-							<a href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2">
-								<div class="hover-mask2"></div>
-								<span class="product-icon icon-eye"></span>
-								<img class="img-responsive project-image img-center-tablet" src="img/product4.jpg" alt="">
-							</a>
-						</div>
-						</a>
-						<div class="product-info col-md-12">
-							<p class="project-price">£19.99</p>
-							<div>
-								<a href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2">
-									<h4 class="project-title">'Block Ink' Tee</h4>
-								</a>
-							</div>	
-						</div>
-					</article>
-
-
-				</div>
-			</div>
-
-		</section>
-
-
-		<section id="cta" class="padding-top-bottom color-bg light-typo">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4 news anima fade-up">
-						<i class="icon-trophy iconBig"></i>
-						<h3>Great Quality</h3>
-					</div>
-					<div class="col-md-4 col-sm-4 news anima fade-up d1">
-						<i class="icon-truck iconBig"></i>
-						<h3>Home delivery</h3>
-					</div>
-					<div class="col-md-4 col-sm-4 anima fade-up d2">
-						<i class="icon-lock iconBig"></i>
-						<h3>Secure payment</h3>
+						<p class="text-white center-tablet" style="font-size: 22px; font-weight: 200;">Unique t-shirts delivered straight to your door.</p> <a class="btn btn-store btn-center-tablet" href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2" style="text-transform: initial; font-size: 16px;">View Product</a>
 					</div>
 				</div>
 			</div>
-		</section>
-
-
-
-
-		
-		
-		<section id="about" class="padding-top-bottom ">
-			<div class="container pad-top-20 pad-bottom-20">
-				<div class="row">
-					<div class="col-md-4 anima fadeInLeft">
-						<header class="section-header cta-message">
-							<h2>About InkTees</h2>
-						</header>
-					</div>
-					<div class="col-md-8 cta-message anima fade-up">
-						<p>InkTees was founded in 2013 by <a href="https://www.linkedin.com/in/george-digital" class="text-green">George Russell</a> & <a href="https://www.linkedin.com/in/chris-harvey-8298a9a0" class="text-green">Chris Harvey</a> whilst still at University. Their objective was to produce, market and distribute a range of different t-shirts to specific niche markets via an automated online shop.
-						</p>
-						<a class="btn btn-store outline" href="about-us.html">Read More</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-
-		
-
-
-
-
-		
-		<section id="testimonial" class="padding-top-bottom image-bg light-typo">
-			<div class="container">
-				
-				<div class="testimonial">
-					<div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example" data-interval="10000">
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="item active">
-								<h1 class="line-height-50 hidden-xs">Great t-shirts at amazing quality. Delivery was quick too. <br>I'll be ordering again!</h1>
-								<h2 class="line-height-50 visible-xs">Great t-shirts at amazing quality. Delivery was quick too. I'll be ordering again!</h2>
-								<br>
-								<h3>Jack Rae</h3>
-							</div>
-							<div class="item">
-								<h1 class="line-height-50 hidden-xs">Good quality and an amazing fit. <br> I would highly recommend InkTees.</h1>
-								<h2 class="line-height-50 visible-xs">Good quality and an amazing fit. I would highly recommend InkTees.</h2>
-								<br>
-								<h3>Lewis McCarthy</h3>
-							</div>
-							<div class="item">
-								<h1 class="line-height-50 hidden-xs">I received my order a few days ago and they came out brilliantly! <br>Thanks 10/10</h1>
-								<h2 class="line-height-50 visible-xs">I received my order a few days ago and they came out brilliantly! Thanks 10/10</h2>
-								<br>
-								<h3>Nathan Cook</h3>
-							</div>
-						</div>
-						<br><br><br>
-					</div>
-				</div>
-				<div class="overlay-bg"></div>
-			</div>
-		</section>
-
-		<section id="newsletter" class="light-typo dark-bg padding-top-bottom">
-			<div class="container pad-top-20 pad-bottom-20">
-				<header class="section-header text-center">
-					<h2>Secret deals and offers, shh!</h2>
-					<h4>Sign up to our exclusive newsletter today</h4>
-				</header>
-
-<div class="container"> 
-		<!-- Begin MailChimp Signup Form -->
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-	</style>
-		<div id="mc_embed_signup ">
-			<form action="//inktees.us13.list-manage.com/subscribe/post?u=43669f337802e4ff52b947e56&amp;id=7ad00aec7a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	    			<div id="mc_embed_signup_scroll">
-						
-
-	    			<div class="row pad-bottom-10">
-						<div class="mc-field-group col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-12 pad-bottom-10">
-							<input type="text" value="Enter Full Name*" name="FNAME" class="required form-control input-lg" id="mce-FNAME">
-						</div>
-						
-
-
-						<div class="mc-field-group col-md-4 col-sm-4 col-xs-12 pad-bottom-10">
-							<input type="email" value="Enter Email Address*" name="EMAIL" class="required email form-control input-lg" id="mce-EMAIL">
-						</div>
-					</div>
-
-					<div class="row">
-						<div id="mce-responses" class="clear col-md-12">
-							<div class="response text-center" id="mce-error-response" style="display:none">
-							</div>
-							<div class="response text-center" id="mce-success-response" style="display:none">
-							</div>
-						</div> 
-					</div>   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						
-
-					<div class="row">
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43669f337802e4ff52b947e56_7ad00aec7a" tabindex="-1" value="">
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="clear btn-center">
-							<input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button btn btn-store">
-						</div>
-					</div>
-
-
-					</div>
-			</form>
 		</div>
-	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
-
-	</script>
-<!--End mc_embed_signup-->
-</div>
-				
+	</section>
+	<section id="products" class=" padding-top-bottom" ng-controller="productsController">
+		<div class="container">
+			<header class="section-header anima fade-up">
+				<h2>Most Popular T-shirts</h2>
+			</header>
+		</div>
+		<div class="container">
+			<div id="projects-container" class="row">
+				<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up">
+					<a href="https://www.inktees.co.uk/store.html#!/mystic+triangle-A5b5734bb2225091085dbf3a4?productType=812&appearance=1">
+						<div class="img-box">
+							<div class="hover-mask2"></div>	<span class="product-icon icon-eye"></span>
+							<img class="img-responsive project-image img-center-tablet" src="img/product1.jpg" alt="">
+					</a>
+					</div>
+					<div class="product-info col-md-12">
+						<p class="project-price">£19.99</p>
+						<div>
+							<a href="https://www.inktees.co.uk/store.html#!/mystic+triangle-A5b5734bb2225091085dbf3a4?productType=812&appearance=1">
+								<h4 class="project-title">'Mystic Triangle' Tee</h4>
+							</a>
+						</div>
+					</div>
+				</article>
+				<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up d1">
+					<div class="img-box">
+						<a href="https://www.inktees.co.uk/store.html#!/colour+splash-A5b5731efe4474244f14061d3?productType=812&appearance=1">
+							<div class="hover-mask2"></div>	<span class="product-icon icon-eye"></span>
+							<img class="img-responsive project-image img-center-tablet" src="img/product2.jpg" alt="">
+						</a>
+					</div>
+					<div class="product-info col-md-12">
+						<p class="project-price">£19.99</p>
+						<div>
+							<a href="https://www.inktees.co.uk/store.html#!/colour+splash-A5b5731efe4474244f14061d3?productType=812&appearance=1">
+								<h4 class="project-title">'Colour Splash' Tee</h4>
+							</a>
+						</div>
+					</div>
+				</article>
+				<article class=" design product col-xs-12 col-sm-6 col-md-3 anima fade-up d2">
+					<div class="img-box">
+						<a href="https://www.inktees.co.uk/store.html#!/palm+strike-A5b57306d2225091085d5169f?productType=812&appearance=2">
+							<div class="hover-mask2"></div>	<span class="product-icon icon-eye"></span>
+							<img class="img-responsive project-image img-center-tablet" src="img/product3.jpg" alt="">
+						</a>
+					</div>
+					</a>
+					<div class="product-info col-md-12">
+						<p class="project-price">£19.99</p>
+						<div>
+							<a href="https://www.inktees.co.uk/store.html#!/palm+strike-A5b57306d2225091085d5169f?productType=812&appearance=2">
+								<h4 class="project-title">'Palm Print' Tee</h4>
+							</a>
+						</div>
+					</div>
+				</article>
+				<article class="design product col-xs-12 col-sm-6 col-md-3 anima fade-up d2">
+					<div class="img-box">
+						<a href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2">
+							<div class="hover-mask2"></div>	<span class="product-icon icon-eye"></span>
+							<img class="img-responsive project-image img-center-tablet" src="img/product4.jpg" alt="">
+						</a>
+					</div>
+					</a>
+					<div class="product-info col-md-12">
+						<p class="project-price">£19.99</p>
+						<div>
+							<a href="https://www.inktees.co.uk/store.html#!/inktees+block-A5b57292de4474244f13293ed?productType=812&appearance=2">
+								<h4 class="project-title">'Block Ink' Tee</h4>
+							</a>
+						</div>
+					</div>
+				</article>
 			</div>
-		</section>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-		
-<section class="call-out-section inset-shadow">
-         <div class="container">
-         <div class="row pad-top-98 pad-bottom-98">
-         <div class="col-md-12 col-sm-12 text-white">
-         <center>
-         <h2 class="text-white" style="font-size:35px;">Visit InkTees Store</h2>
-         <h5 class="text-white fs17 pad-bottom-15">Stand out from the crowd today.</h5>
-         </center>
-         <a class="btn btn-store btn-center" href="https://www.inktees.co.uk/store.html" style="text-transform: initial; font-size: 16px; text-align: center !important;">Go to Store</a>
-         <br>
-         </div>
-         </div>
-         </div>
-</section>
-	
-
-		<footer id="main-footer" class="color-bg light-typo">
+		</div>
+	</section>
+	<section id="cta" class="padding-top-bottom color-bg light-typo">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4 news anima fade-up">	<i class="icon-trophy iconBig"></i>
+					<h3>Great Quality</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 news anima fade-up d1">	<i class="icon-truck iconBig"></i>
+					<h3>Home delivery</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 anima fade-up d2">	<i class="icon-lock iconBig"></i>
+					<h3>Secure payment</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="padding-top-bottom ">
+		<div class="container pad-top-20 pad-bottom-20">
+			<div class="row">
+				<div class="col-md-4 anima fadeInLeft">
+					<header class="section-header cta-message">
+						<h2>About InkTees</h2>
+					</header>
+				</div>
+				<div class="col-md-8 cta-message anima fade-up">
+					<p>InkTees was founded in 2013 by <a href="https://www.linkedin.com/in/george-digital" class="text-green">George Russell</a> & <a href="https://www.linkedin.com/in/chris-harvey-8298a9a0" class="text-green">Chris Harvey</a> whilst still at University. Their objective was to produce, market and distribute a range of different t-shirts to specific niche markets via an automated online shop.</p>	<a class="btn btn-store outline" href="about-us.html">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="testimonial" class="padding-top-bottom image-bg light-typo">
+		<div class="container">
+			<div class="testimonial">
+				<div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example" data-interval="10000">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<h1 class="line-height-50 hidden-xs">Great t-shirts at amazing quality. Delivery was quick too. <br>I'll be ordering again!</h1>
+							<h2 class="line-height-50 visible-xs">Great t-shirts at amazing quality. Delivery was quick too. I'll be ordering again!</h2>
+							<br>
+							<h3>Jack Rae</h3>
+						</div>
+						<div class="item">
+							<h1 class="line-height-50 hidden-xs">Good quality and an amazing fit. <br> I would highly recommend InkTees.</h1>
+							<h2 class="line-height-50 visible-xs">Good quality and an amazing fit. I would highly recommend InkTees.</h2>
+							<br>
+							<h3>Lewis McCarthy</h3>
+						</div>
+						<div class="item">
+							<h1 class="line-height-50 hidden-xs">I received my order a few days ago and they came out brilliantly! <br>Thanks 10/10</h1>
+							<h2 class="line-height-50 visible-xs">I received my order a few days ago and they came out brilliantly! Thanks 10/10</h2>
+							<br>
+							<h3>Nathan Cook</h3>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+			<div class="overlay-bg"></div>
+		</div>
+	</section>
+	<section id="newsletter" class="light-typo dark-bg padding-top-bottom">
+		<div class="container pad-top-20 pad-bottom-20">
+			<header class="section-header text-center">
+				<h2>Secret deals and offers, shh!</h2>
+				<h4>Sign up to our exclusive newsletter today</h4>
+			</header>
 			<div class="container">
-				<p class="text-center copyright fs13 fw400">&copy; InkTees 2018. Developed by <a href="https://www.linkedin.com/in/george-digital" class="text-white2" target="_blank"><b> George Russell</b></a>.<br>
-				</p>
-		</footer>
+				<!-- Begin MailChimp Signup Form -->
+				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+				</style>
+				<div id="mc_embed_signup ">
+					<form action="//inktees.us13.list-manage.com/subscribe/post?u=43669f337802e4ff52b947e56&amp;id=7ad00aec7a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<div class="row pad-bottom-10">
+								<div class="mc-field-group col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-12 pad-bottom-10">
+									<input type="text" value="Enter Full Name*" name="FNAME" class="required form-control input-lg" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group col-md-4 col-sm-4 col-xs-12 pad-bottom-10">
+									<input type="email" value="Enter Email Address*" name="EMAIL" class="required email form-control input-lg" id="mce-EMAIL">
+								</div>
+							</div>
+							<div class="row">
+								<div id="mce-responses" class="clear col-md-12">
+									<div class="response text-center" id="mce-error-response" style="display:none"></div>
+									<div class="response text-center" id="mce-success-response" style="display:none"></div>
+								</div>
+							</div>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div class="row">
+								<div style="position: absolute; left: -5000px;" aria-hidden="true">
+									<input type="text" name="b_43669f337802e4ff52b947e56_7ad00aec7a" tabindex="-1" value="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="clear btn-center">
+									<input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button btn btn-store">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+				<script type='text/javascript'>
+					(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
+				</script>
+				<!--End mc_embed_signup-->
+			</div>
+		</div>
+	</section>
+	<section class="call-out-section inset-shadow">
+		<div class="container">
+			<div class="row pad-top-98 pad-bottom-98">
+				<div class="col-md-12 col-sm-12 text-white">
+					<center>
+						<h2 class="text-white" style="font-size:35px;">Visit InkTees Store</h2>
+						<h5 class="text-white fs17 pad-bottom-15">Stand out from the crowd today.</h5>
+					</center> <a class="btn btn-store btn-center" href="https://www.inktees.co.uk/store.html" style="text-transform: initial; font-size: 16px; text-align: center !important;">Go to Store</a>
+					<br>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="main-footer" class="color-bg light-typo">
+		<div class="container">
+			<p class="text-center copyright fs13 fw400">&copy; InkTees 2018. Developed by <a href="https://www.linkedin.com/in/george-digital" class="text-white2" target="_blank"><b> George Russell</b></a>.
+				<br>
+			</p>
+	</footer>
+	
+	<script type="text/javascript" src="plugins/jquery/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="plugins/waypoints/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="plugins/angular/angular.min.js"></script>
+	<script type="text/javascript" src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="plugins/singlepagenav/jquery.singlePageNav.min.js"></script>
+	<script type="text/javascript" src="plugins/countdown/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="plugins/owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/hero-slider.js"></script>
+	<script type="text/javascript" src="js/project-slider.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
 
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-65199211-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
-
-
-		<script type="text/javascript" src="plugins/jquery/jquery-2.2.4.min.js"></script>
-		<script type="text/javascript" src="plugins/waypoints/jquery.waypoints.min.js"></script>
-		<script type="text/javascript" src="plugins/angular/angular.min.js"></script>
-		<script type="text/javascript" src="plugins/bootstrap/bootstrap.min.js"></script>
-		<script type="text/javascript" src="plugins/singlepagenav/jquery.singlePageNav.min.js"></script>
-		<script type="text/javascript" src="plugins/countdown/jquery.countdown.min.js"></script>
-		<script type="text/javascript" src="plugins/owlcarousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="js/hero-slider.js"></script>
-		<script type="text/javascript" src="js/project-slider.js"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-	</body>
 </html>
